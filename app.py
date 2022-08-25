@@ -16,7 +16,7 @@ PAGES = {
     "Plant_Disease" :app1 ,
     "Cancer Disease":app6
 }
-st.sidebar.title('Arogya ')
+st.sidebar.title('Allgov ')
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
